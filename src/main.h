@@ -275,7 +275,7 @@ public:
 
     bool IsInjectionTx() const
     {
-        return (vin.size() == 1 && vin[0].isInjectionInput());
+        return (vin.size() == 1 && vin[0].IsInjectionInput());
     }
 
     bool IsCoinStake() const

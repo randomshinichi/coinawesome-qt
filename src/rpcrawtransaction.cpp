@@ -266,7 +266,7 @@ Value createrawtransaction(const Array& params, bool fHelp)
         if (nOutput < 0)
             throw JSONRPCError(RPC_INVALID_PARAMETER, "Invalid parameter, vout must be positive");
         CTxIn in(COutPoint(uint256(txid), nOutput));
-        if (in.isInjectionInput())
+        if (in.IsInjectionInput())
             std::cout << "A coin injection was just received" << std::endl;
         rawTx.vin.push_back(in);
     }
@@ -561,7 +561,6 @@ Value sendrawtransaction(const Array& params, bool fHelp)
             "Submits raw transaction (serialized, hex-encoded) to local node and network.");
 
     RPCTypeCheck(params, list_of(str_type));
-
     // parse hex string from parameter
     vector<unsigned char> txData(ParseHex(params[0].get_str()));
     CDataStream ssData(txData, SER_NETWORK, PROTOCOL_VERSION);
@@ -590,10 +589,13 @@ Value sendrawtransaction(const Array& params, bool fHelp)
     else
     {
         // push to local node
-        if (!AcceptToMemoryPool(mempool, tx, true, NULL))
+        cout << "sendrawtransaction() couldn't find the tx in an existing block" << endl;
+        if (bool accepted = !AcceptToMemoryPool(mempool, tx, true, NULL)){
+            cout << "sendrawtransaction(): AcceptToMemoryPool() returned " << !accepted << endl;
             throw JSONRPCError(RPC_DESERIALIZATION_ERROR, "TX rejected");
+        }
+        cout << "sendrawtransaction() else ended" << endl;
     }
     RelayTransaction(tx, hashTx);
-
     return hashTx.GetHex();
 }

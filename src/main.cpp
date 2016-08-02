@@ -265,7 +265,6 @@ bool CTransaction::ReadFromDisk(COutPoint prevout)
 
 bool IsStandardTx(const CTransaction& tx, string& reason)
 {
-    std::cout << "ISSTANDARDTX ENTERED!!!!! WOOOHOOOOOOOOOOOOOOOOOOO==============================" << std::endl;
     if (tx.nVersion > CTransaction::CURRENT_VERSION) {
         reason = "version";
         return false;
@@ -461,7 +460,7 @@ unsigned int GetLegacySigOpCount(const CTransaction& tx)
 
 unsigned int GetP2SHSigOpCount(const CTransaction& tx, const MapPrevTx& inputs)
 {
-    if (tx.IsCoinBase())
+    if (tx.IsCoinBase() || tx.IsInjectionTx())
         return 0;
 
     unsigned int nSigOps = 0;
@@ -622,6 +621,7 @@ bool AcceptToMemoryPool(CTxMemPool& pool, CTransaction &tx, bool fLimitFree,
         return error("AcceptToMemoryPool : nonstandard transaction: %s",
                      reason);
 
+    std::cout << "AcceptToMemoryPool(): " << "before mempool check" << std::endl;
     // is it already in the memory pool?
     uint256 hash = tx.GetHash();
     if (pool.exists(hash))
@@ -629,6 +629,7 @@ bool AcceptToMemoryPool(CTxMemPool& pool, CTransaction &tx, bool fLimitFree,
 
     // Check for conflicts with in-memory transactions
     {
+    std::cout << "AcceptToMemoryPool(): " << "before LOCK(pool.cs)" << std::endl;
     LOCK(pool.cs); // protect pool.mapNextTx
     for (unsigned int i = 0; i < tx.vin.size(); i++)
     {
@@ -636,6 +637,7 @@ bool AcceptToMemoryPool(CTxMemPool& pool, CTransaction &tx, bool fLimitFree,
         if (pool.mapNextTx.count(outpoint))
         {
             // Disable replacement feature for now
+            std::cout << "AcceptToMemoryPool(): " << "inside pool.mapNextTx.count(outpoint)" << std::endl;
             return false;
         }
     }
@@ -643,7 +645,7 @@ bool AcceptToMemoryPool(CTxMemPool& pool, CTransaction &tx, bool fLimitFree,
 
     {
         CTxDB txdb("r");
-
+        std::cout << "AcceptToMemoryPool(): " << "before tx in db check" << std::endl;
         // do we already have it?
         if (txdb.ContainsTx(hash))
             return false;
@@ -660,15 +662,19 @@ bool AcceptToMemoryPool(CTxMemPool& pool, CTransaction &tx, bool fLimitFree,
             return false;
         }
 
+        std::cout << "AcceptToMemoryPool(): " << "before non-standard p2sh check" << std::endl;
         // Check for non-standard pay-to-script-hash in inputs
-        if (!TestNet() && !AreInputsStandard(tx, mapInputs))
+        if (!TestNet() && !AreInputsStandard(tx, mapInputs)){
             return error("AcceptToMemoryPool : nonstandard transaction input");
+        }
 
         // Check that the transaction doesn't have an excessive number of
         // sigops, making it impossible to mine. Since the coinbase transaction
         // itself can contain sigops MAX_TX_SIGOPS is less than
         // MAX_BLOCK_SIGOPS; we still consider this an invalid rather than
         // merely non-standard transaction.
+        
+        std::cout << "AcceptToMemoryPool(): " << "before sigop count check" << std::endl;
         unsigned int nSigOps = GetLegacySigOpCount(tx);
         nSigOps += GetP2SHSigOpCount(tx, mapInputs);
         if (nSigOps > MAX_TX_SIGOPS)
@@ -676,19 +682,24 @@ bool AcceptToMemoryPool(CTxMemPool& pool, CTransaction &tx, bool fLimitFree,
                           error("AcceptToMemoryPool : too many sigops %s, %d > %d",
                                 hash.ToString(), nSigOps, MAX_TX_SIGOPS));
 
+        std::cout << "AcceptToMemoryPool(): " << "before min fee check" << std::endl;
         int64_t nFees = tx.GetValueIn(mapInputs)-tx.GetValueOut();
         unsigned int nSize = ::GetSerializeSize(tx, SER_NETWORK, PROTOCOL_VERSION);
 
         // Don't accept it if it can't get into a block
-        int64_t txMinFee = GetMinFee(tx, 1000, GMF_RELAY, nSize);
-        if ((fLimitFree && nFees < txMinFee) || (!fLimitFree && nFees < MIN_TX_FEE))
-            return error("AcceptToMemoryPool : not enough fees %s, %d < %d",
-                         hash.ToString(),
-                         nFees, txMinFee);
-
+        // Injections had better make it into a block, else the economy will blow lol
+        // I'm sure any cash injection will be bigger than the fee size anyway.
+        if (!tx.IsInjectionTx()){
+            int64_t txMinFee = GetMinFee(tx, 1000, GMF_RELAY, nSize);
+            if ((fLimitFree && nFees < txMinFee) || (!fLimitFree && nFees < MIN_TX_FEE))
+                return error("AcceptToMemoryPool : not enough fees %s, %d < %d",
+                             hash.ToString(),
+                             nFees, txMinFee);
+        }
         // Continuously rate-limit free transactions
         // This mitigates 'penny-flooding' -- sending thousands of free transactions just to
         // be annoying or make others' transactions take longer to confirm.
+        std::cout << "AcceptToMemoryPool(): " << "before rate-limit check" << std::endl;
         if (fLimitFree && nFees < MIN_RELAY_TX_FEE)
         {
             static CCriticalSection csFreeLimiter;
@@ -711,6 +722,7 @@ bool AcceptToMemoryPool(CTxMemPool& pool, CTransaction &tx, bool fLimitFree,
 
         // Check against previous transactions
         // This is done last to help prevent CPU exhaustion denial-of-service attacks.
+        cout << "AcceptToMemoryPool(): before ConnectInputs" << endl;
         if (!tx.ConnectInputs(txdb, mapInputs, mapUnused, CDiskTxPos(1,1,1), pindexBest, false, false, STANDARD_SCRIPT_VERIFY_FLAGS))
         {
             return error("AcceptToMemoryPool : ConnectInputs failed %s", hash.ToString());
@@ -721,7 +733,7 @@ bool AcceptToMemoryPool(CTxMemPool& pool, CTransaction &tx, bool fLimitFree,
     pool.addUnchecked(hash, tx);
 
     SyncWithWallets(tx, NULL);
-
+    cout << "AcceptToMemoryPool(): Made it to the end!!!!!!!" << endl;
     LogPrint("mempool", "AcceptToMemoryPool : accepted %s (poolsz %"PRIszu")\n",
            hash.ToString(),
            pool.mapTx.size());
@@ -1284,7 +1296,7 @@ const CTxOut& CTransaction::GetOutputFor(const CTxIn& input, const MapPrevTx& in
 
 int64_t CTransaction::GetValueIn(const MapPrevTx& inputs) const
 {
-    if (IsCoinBase())
+    if (IsCoinBase() || IsInjectionTx())
         return 0;
 
     int64_t nResult = 0;
@@ -1303,7 +1315,8 @@ bool CTransaction::ConnectInputs(CTxDB& txdb, MapPrevTx inputs, map<uint256, CTx
     // fBlock is true when this is called from AcceptBlock when a new best-block is added to the blockchain
     // fMiner is true when called from the internal bitcoin miner
     // ... both are false when called from CTransaction::AcceptToMemoryPool
-    if (!IsCoinBase() || !IsInjectionTx())
+    cout << "ConnectInputs(): IsCoinBase, IsInjectionTx" << IsCoinBase() << IsInjectionTx() << endl;
+    if (!IsCoinBase() && !IsInjectionTx())
     {
         int64_t nValueIn = 0;
         int64_t nFees = 0;

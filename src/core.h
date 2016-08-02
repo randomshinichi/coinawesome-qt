@@ -102,7 +102,7 @@ public:
     {
         return (nSequence == std::numeric_limits<unsigned int>::max());
     }
-    bool isInjectionInput() const
+    bool IsInjectionInput() const
     {
         char injectioncode[] = "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff";
         uint256 injectionkey = uint256(injectioncode);
