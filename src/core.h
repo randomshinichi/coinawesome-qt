@@ -102,6 +102,12 @@ public:
     {
         return (nSequence == std::numeric_limits<unsigned int>::max());
     }
+    bool isInjectionInput() const
+    {
+        char injectioncode[] = "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff";
+        uint256 injectionkey = uint256(injectioncode);
+        return (prevout.hash == injectionkey && prevout.n == 65535);
+    }
 
     friend bool operator==(const CTxIn& a, const CTxIn& b)
     {

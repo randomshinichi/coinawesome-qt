@@ -7,19 +7,22 @@
 # Originally by Laszlo Hanyecz (solar@heliacal.net)
 
 CXX=llvm-g++
-DEPSDIR=/opt/local
+DEPSDIR=/usr/local/opt
 
 INCLUDEPATHS= \
  -I"$(CURDIR)" \
  -I"$(CURDIR)"/obj \
  -I"$(DEPSDIR)/include" \
- -I"$(DEPSDIR)/include/db48"
+ -I"$(DEPSDIR)/berkeley-db4/include" \
+ -I"$(DEPSDIR)/openssl/include"
 
 LIBPATHS= \
  -L"$(DEPSDIR)/lib" \
- -L"$(DEPSDIR)/lib/db48"
+ -L"$(DEPSDIR)/berkeley-db4/lib" \
+ -L"$(DEPSDIR)/openssl/lib"
 
-USE_UPNP:=1
+
+USE_UPNP:=-
 USE_WALLET:=1
 
 LIBS= -dead_strip

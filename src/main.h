@@ -273,6 +273,11 @@ public:
         return (vin.size() == 1 && vin[0].prevout.IsNull() && vout.size() >= 1);
     }
 
+    bool IsInjectionTx() const
+    {
+        return (vin.size() == 1 && vin[0].isInjectionInput());
+    }
+
     bool IsCoinStake() const
     {
         // ppcoin: the coin stake transaction is marked with the first output empty

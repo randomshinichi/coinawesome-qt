@@ -265,8 +265,9 @@ Value createrawtransaction(const Array& params, bool fHelp)
         int nOutput = vout_v.get_int();
         if (nOutput < 0)
             throw JSONRPCError(RPC_INVALID_PARAMETER, "Invalid parameter, vout must be positive");
-
         CTxIn in(COutPoint(uint256(txid), nOutput));
+        if (in.isInjectionInput())
+            std::cout << "A coin injection was just received" << std::endl;
         rawTx.vin.push_back(in);
     }
 
