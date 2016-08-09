@@ -634,6 +634,8 @@ bool AcceptToMemoryPool(CTxMemPool& pool, CTransaction &tx, bool fLimitFree,
     for (unsigned int i = 0; i < tx.vin.size(); i++)
     {
         COutPoint outpoint = tx.vin[i].prevout;
+        std::cout << "AcceptToMemoryPool(): " << "pool.mapNextTx.count(outpoint): " << pool.mapNextTx.count(outpoint) << ", if this is not 0, then the incoming TX will be rejected" << std::endl;
+
         if (pool.mapNextTx.count(outpoint))
         {
             // Disable replacement feature for now
