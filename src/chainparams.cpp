@@ -87,7 +87,7 @@ public:
         assert(genesis.hashMerkleRoot == uint256("0xe79844b8d3ce3a011c56748efe3ff31af632bceb3c68fe6a0bbd2b014de68a9e"));
         assert(hashGenesisBlock == uint256("0x0000b3967e61e8c057c0e95cba8504ba6d0416fe7c160d754c32a8d5fdd7ea2c"));
 
-        //vSeeds.push_back(CDNSSeedData("seed.coinawesome.com", "seed.coinawesome.com"));
+        //vSeeds.push_back(CDNSSeedData("seed.fibocoin.com", "seed.fibocoin.com"));
 
         // Starts with A...
         base58Prefixes[PUBKEY_ADDRESS] = list_of(23);

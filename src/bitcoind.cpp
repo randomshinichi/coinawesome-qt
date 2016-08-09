@@ -51,12 +51,12 @@ bool AppInit(int argc, char* argv[])
         if (mapArgs.count("-?") || mapArgs.count("--help"))
         {
             // First part of help message is specific to bitcoind / RPC client
-            std::string strUsage = _("CoinAwesome version") + " " + FormatFullVersion() + "\n\n" +
+            std::string strUsage = _("Fibocoin version") + " " + FormatFullVersion() + "\n\n" +
                 _("Usage:") + "\n" +
-                  "  coinawesomed [options]                     " + "\n" +
-                  "  coinawesomed [options] <command> [params]  " + _("Send command to -server or coinawesomed") + "\n" +
-                  "  coinawesomed [options] help                " + _("List commands") + "\n" +
-                  "  coinawesomed [options] help <command>      " + _("Get help for a command") + "\n";
+                  "  fibocoind [options]                     " + "\n" +
+                  "  fibocoind [options] <command> [params]  " + _("Send command to -server or fibocoind") + "\n" +
+                  "  fibocoind [options] help                " + _("List commands") + "\n" +
+                  "  fibocoind [options] help <command>      " + _("Get help for a command") + "\n";
 
             strUsage += "\n" + HelpMessage();
 
@@ -66,7 +66,7 @@ bool AppInit(int argc, char* argv[])
 
         // Command-line RPC
         for (int i = 1; i < argc; i++)
-            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "coinawesome:"))
+            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "fibocoin:"))
                 fCommandLine = true;
 
         if (fCommandLine)

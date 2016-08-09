@@ -918,7 +918,7 @@ static std::string FormatException(std::exception* pex, const char* pszThread)
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "coinawesome";
+    const char* pszModule = "fibocoin";
 #endif
     if (pex)
         return strprintf(
@@ -948,13 +948,13 @@ void PrintExceptionContinue(std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-    // Windows < Vista: C:\Documents and Settings\Username\Application Data\CoinAwesome
-    // Windows >= Vista: C:\Users\Username\AppData\Roaming\CoinAwesome
-    // Mac: ~/Library/Application Support/CoinAwesome
-    // Unix: ~/.coinawesome
+    // Windows < Vista: C:\Documents and Settings\Username\Application Data\Fibocoin
+    // Windows >= Vista: C:\Users\Username\AppData\Roaming\Fibocoin
+    // Mac: ~/Library/Application Support/Fibocoin
+    // Unix: ~/.fibocoin
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "CoinAwesome";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "Fibocoin";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -966,10 +966,10 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     fs::create_directory(pathRet);
-    return pathRet / "CoinAwesome";
+    return pathRet / "Fibocoin";
 #else
     // Unix
-    return pathRet / ".coinawesome";
+    return pathRet / ".fibocoin";
 #endif
 #endif
 }
@@ -1018,7 +1018,7 @@ void ClearDatadirCache()
 
 boost::filesystem::path GetConfigFile()
 {
-    boost::filesystem::path pathConfigFile(GetArg("-conf", "coinawesome.conf"));
+    boost::filesystem::path pathConfigFile(GetArg("-conf", "fibocoin.conf"));
     if (!pathConfigFile.is_complete()) pathConfigFile = GetDataDir(false) / pathConfigFile;
     return pathConfigFile;
 }
@@ -1051,7 +1051,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 
 boost::filesystem::path GetPidFile()
 {
-    boost::filesystem::path pathPidFile(GetArg("-pid", "coinawesomed.pid"));
+    boost::filesystem::path pathPidFile(GetArg("-pid", "fibocoind.pid"));
     if (!pathPidFile.is_complete()) pathPidFile = GetDataDir() / pathPidFile;
     return pathPidFile;
 }

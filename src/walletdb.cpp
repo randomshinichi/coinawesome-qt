@@ -663,7 +663,7 @@ DBErrors CWalletDB::LoadWallet(CWallet* pwallet)
 void ThreadFlushWalletDB(const string& strFile)
 {
     // Make this thread recognisable as the wallet flushing thread
-    RenameThread("coinawesome-wallet");
+    RenameThread("fibocoin-wallet");
 
     static bool fOneThread;
     if (fOneThread)

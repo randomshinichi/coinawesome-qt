@@ -18,14 +18,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "CoinAwesome"
-            VALUE "FileDescription",    "CoinAwesome-Qt (OSS GUI client for CoinAwesome)"
+            VALUE "CompanyName",        "Fibocoin"
+            VALUE "FileDescription",    "Fibocoin-Qt (OSS GUI client for Fibocoin)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "coinawesome-qt"
-            VALUE "LegalCopyright",     "2009-2014 The Bitcoin developers, 2012-2014 The NovaCoin & PPCoin developers, 2014 The CoinAwesome developers"
+            VALUE "InternalName",       "fibocoin-qt"
+            VALUE "LegalCopyright",     "2009-2014 The Bitcoin developers, 2012-2014 The NovaCoin & PPCoin developers, 2014 The Fibocoin developers"
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "coinawesome-qt.exe"
-            VALUE "ProductName",        "CoinAwesome-Qt"
+            VALUE "OriginalFilename",   "fibocoin-qt.exe"
+            VALUE "ProductName",        "Fibocoin-Qt"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

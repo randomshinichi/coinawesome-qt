@@ -7,23 +7,23 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleGetInfoString</key>
-	<string>CoinAwesome-Qt</string>
+	<string>Fibocoin-Qt</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleExecutable</key>
-	<string>CoinAwesome-Qt</string>
+	<string>Fibocoin-Qt</string>
 	<key>CFBundleIdentifier</key>
-	<string>co.coinawesome.CoinAwesome-Qt</string>
+	<string>co.fibocoin.Fibocoin-Qt</string>
         <key>CFBundleURLTypes</key>
         <array>
           <dict>
             <key>CFBundleTypeRole</key>
             <string>Editor</string>
             <key>CFBundleURLName</key>
-            <string>co.coinawesome.CoinAwesomePayment</string>
+            <string>co.fibocoin.FibocoinPayment</string>
             <key>CFBundleURLSchemes</key>
             <array>
-              <string>coinawesome</string>
+              <string>fibocoin</string>
             </array>
           </dict>
         </array>

@@ -92,7 +92,7 @@ void Shutdown()
     TRY_LOCK(cs_Shutdown, lockShutdown);
     if (!lockShutdown) return;
 
-    RenameThread("coinawesome-shutoff");
+    RenameThread("fibocoin-shutoff");
     mempool.AddTransactionsUpdated(1);
     StopRPCThreads();
 #ifdef ENABLE_WALLET
@@ -163,8 +163,8 @@ std::string HelpMessage()
 {
     string strUsage = _("Options:") + "\n";
     strUsage += "  -?                     " + _("This help message") + "\n";
-    strUsage += "  -conf=<file>           " + _("Specify configuration file (default: coinawesome.conf)") + "\n";
-    strUsage += "  -pid=<file>            " + _("Specify pid file (default: coinawesomed.pid)") + "\n";
+    strUsage += "  -conf=<file>           " + _("Specify configuration file (default: fibocoin.conf)") + "\n";
+    strUsage += "  -pid=<file>            " + _("Specify pid file (default: fibocoind.pid)") + "\n";
     strUsage += "  -datadir=<dir>         " + _("Specify data directory") + "\n";
     strUsage += "  -wallet=<dir>          " + _("Specify wallet file (within data directory)") + "\n";
     strUsage += "  -dbcache=<n>           " + _("Set database cache size in megabytes (default: 25)") + "\n";
@@ -458,7 +458,7 @@ COINBASE_FLAGS << std::vector<unsigned char>(pszAwesome, pszAwesome+strlen(pszAw
 
     // Sanity check
     if (!InitSanityCheck())
-        return InitError(_("Initialization sanity check failed. CoinAwesome is shutting down."));
+        return InitError(_("Initialization sanity check failed. Fibocoin is shutting down."));
 
     std::string strDataDir = GetDataDir().string();
 #ifdef ENABLE_WALLET
@@ -474,12 +474,12 @@ COINBASE_FLAGS << std::vector<unsigned char>(pszAwesome, pszAwesome+strlen(pszAw
     if (file) fclose(file);
     static boost::interprocess::file_lock lock(pathLockFile.string().c_str());
     if (!lock.try_lock())
-        return InitError(strprintf(_("Cannot obtain a lock on data directory %s. CoinAwesome is probably already running."), strDataDir));
+        return InitError(strprintf(_("Cannot obtain a lock on data directory %s. Fibocoin is probably already running."), strDataDir));
 
     if (GetBoolArg("-shrinkdebugfile", !fDebug))
         ShrinkDebugFile();
     LogPrintf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
-    LogPrintf("CoinAwesome version %s (%s)\n", FormatFullVersion(), CLIENT_DATE);
+    LogPrintf("Fibocoin version %s (%s)\n", FormatFullVersion(), CLIENT_DATE);
     LogPrintf("Using OpenSSL version %s\n", SSLeay_version(SSLEAY_VERSION));
     if (!fLogTimestamps)
         LogPrintf("Startup time: %s\n", DateTimeStrFormat("%x %H:%M:%S", GetTime()));
@@ -488,7 +488,7 @@ COINBASE_FLAGS << std::vector<unsigned char>(pszAwesome, pszAwesome+strlen(pszAw
     std::ostringstream strErrors;
 
     if (fDaemon)
-        fprintf(stdout, "CoinAwesome server starting\n");
+        fprintf(stdout, "Fibocoin server starting\n");
 
     int64_t nStart;
 
@@ -730,10 +730,10 @@ COINBASE_FLAGS << std::vector<unsigned char>(pszAwesome, pszAwesome+strlen(pszAw
                 InitWarning(msg);
             }
             else if (nLoadWalletRet == DB_TOO_NEW)
-                strErrors << _("Error loading wallet.dat: Wallet requires newer version of CoinAwesome") << "\n";
+                strErrors << _("Error loading wallet.dat: Wallet requires newer version of Fibocoin") << "\n";
             else if (nLoadWalletRet == DB_NEED_REWRITE)
             {
-                strErrors << _("Wallet needed to be rewritten: restart CoinAwesome to complete") << "\n";
+                strErrors << _("Wallet needed to be rewritten: restart Fibocoin to complete") << "\n";
                 LogPrintf("%s", strErrors.str());
                 return InitError(strErrors.str());
             }

@@ -1,9 +1,10 @@
 ..git
 
-
+doc/doxygen/*
 src/*.exe
-src/coinawesome
-src/test_coinawesome
+src/fibocoin
+src/fibocoind
+src/test_fibocoin
 src/build.h
 .*.swp
 *.*~*
@@ -12,11 +13,11 @@ src/build.h
 *.orig
 *.o
 *.patch
-.coinawesome
+.fibocoin
 #compilation and Qt preprocessor part
 *.qm
 Makefile
-#coinawesome-qt
+#fibocoin-qt
 #resources cpp
 qrc_*.cpp
 #qt creator

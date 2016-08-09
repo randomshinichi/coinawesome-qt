@@ -1,9 +1,9 @@
-Building CoinAwesome
+Building Fibocoin
 
-See doc/readme-qt.rst for instructions on building CoinAwesome QT,
+See doc/readme-qt.rst for instructions on building Fibocoin QT,
 the intended-for-end-users, nice-graphical-interface, reference
-implementation of CoinAwesome.
+implementation of Fibocoin.
 
-See doc/build-*.txt for instructions on building coinawesomed,
+See doc/build-*.txt for instructions on building fibocoind,
 the intended-for-services, no-graphical-interface, reference
-implementation of CoinAwesome.
+implementation of Fibocoin.

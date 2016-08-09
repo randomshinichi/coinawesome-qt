@@ -3,23 +3,23 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About CoinAwesome</source>
-        <translation>О CoinAwesome</translation>
+        <source>About Fibocoin</source>
+        <translation>О Fibocoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;CoinAwesome&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;CoinAwesome&lt;/b&gt; версия</translation>
+        <source>&lt;b&gt;Fibocoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Fibocoin&lt;/b&gt; версия</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
 Copyright © 2014 The Blackcoin developers
-Copyright © 2015 The CoinAwesome developers</source>
+Copyright © 2015 The Fibocoin developers</source>
         <translation>Все права защищены © 2009-2014 Разработчики Bitcoin
 Все права защищены © 2012-2014 Разработчики NovaCoin
-Все права защищены © 2014 Разработчики CoinAwesome</translation>
+Все права защищены © 2014 Разработчики Fibocoin</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -61,7 +61,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your CoinAwesome addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your Fibocoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation>Это Ваши адреса для получения платежей. Вы можете дать разные адреса отправителям, чтобы отслеживать, кто именно вам платит.</translation>
     </message>
     <message>
@@ -76,8 +76,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a CoinAwesome address</source>
-        <translation>Подписать сообщение, чтобы доказать владение адресом CoinAwesome</translation>
+        <source>Sign a message to prove you own a Fibocoin address</source>
+        <translation>Подписать сообщение, чтобы доказать владение адресом Fibocoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -91,8 +91,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified CoinAwesome address</source>
-        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом CoinAwesome</translation>
+        <source>Verify a message to ensure it was signed with a specified Fibocoin address</source>
+        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом Fibocoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -259,7 +259,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+82"/>
-        <source>CoinAwesome will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <source>Fibocoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
         <translation>Сейчас программа закроется для завершения процесса шифрования. Помните, что шифрование вашего бумажника не может полностью защитить ваши монеты от кражи с помощью инфицирования вашего компьютера вредоносным ПО.</translation>
     </message>
     <message>
@@ -353,8 +353,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about CoinAwesome</source>
-        <translation>Показать информацию о CoinAwesome&apos;е</translation>
+        <source>Show information about Fibocoin</source>
+        <translation>Показать информацию о Fibocoin&apos;е</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -393,13 +393,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a CoinAwesome address</source>
-        <translation>Отправить монеты на указанный адрес CoinAwesome</translation>
+        <source>Send coins to a Fibocoin address</source>
+        <translation>Отправить монеты на указанный адрес Fibocoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for CoinAwesome</source>
-        <translation>Изменить параметры конфигурации CoinAwesome</translation>
+        <source>Modify configuration options for Fibocoin</source>
+        <translation>Изменить параметры конфигурации Fibocoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -439,8 +439,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-214"/>
         <location line="+551"/>
-        <source>CoinAwesome</source>
-        <translation>CoinAwesome</translation>
+        <source>Fibocoin</source>
+        <translation>Fibocoin</translation>
     </message>
     <message>
         <location line="-551"/>
@@ -449,8 +449,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About CoinAwesome</source>
-        <translation>&amp;О CoinAwesome</translation>
+        <source>&amp;About Fibocoin</source>
+        <translation>&amp;О Fibocoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -501,12 +501,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>CoinAwesome client</source>
-        <translation>CoinAwesome клиент</translation>
+        <source>Fibocoin client</source>
+        <translation>Fibocoin клиент</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to CoinAwesome network</source>
+        <source>%n active connection(s) to Fibocoin network</source>
         <translation><numerusform>%n активное соединение с сетью</numerusform><numerusform>%n активных соединений с сетью</numerusform><numerusform>%n активных соединений с сетью</numerusform></translation>
     </message>
     <message>
@@ -601,8 +601,8 @@ Address: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid CoinAwesome address or malformed URI parameters.</source>
-        <translation>Не удалось обработать URI! Это может быть связано с неверным адресом CoinAwesome или неправильными параметрами URI.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Fibocoin address or malformed URI parameters.</source>
+        <translation>Не удалось обработать URI! Это может быть связано с неверным адресом Fibocoin или неправильными параметрами URI.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -724,8 +724,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. CoinAwesome can no longer continue safely and will quit.</source>
-        <translation>Произошла неисправимая ошибка. CoinAwesome не может безопасно продолжать работу и будет закрыт.</translation>
+        <source>A fatal error occurred. Fibocoin can no longer continue safely and will quit.</source>
+        <translation>Произошла неисправимая ошибка. Fibocoin не может безопасно продолжать работу и будет закрыт.</translation>
     </message>
 </context>
 <context>
@@ -1044,8 +1044,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid CoinAwesome address.</source>
-        <translation>Введённый адрес &quot;%1&quot; не является правильным CoinAwesome-адресом.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Fibocoin address.</source>
+        <translation>Введённый адрес &quot;%1&quot; не является правильным Fibocoin-адресом.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1063,8 +1063,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>CoinAwesome-Qt</source>
-        <translation>CoinAwesome-Qt</translation>
+        <source>Fibocoin-Qt</source>
+        <translation>Fibocoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1136,13 +1136,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start CoinAwesome after logging in to the system.</source>
-        <translation>Автоматически запускать CoinAwesome после входа в систему</translation>
+        <source>Automatically start Fibocoin after logging in to the system.</source>
+        <translation>Автоматически запускать Fibocoin после входа в систему</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start CoinAwesome on system login</source>
-        <translation>&amp;Запускать CoinAwesome при входе в систему</translation>
+        <source>&amp;Start Fibocoin on system login</source>
+        <translation>&amp;Запускать Fibocoin при входе в систему</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1151,8 +1151,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the CoinAwesome client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматически открыть порт для CoinAwesome-клиента на роутере. Работает только если Ваш роутер поддерживает UPnP, и данная функция включена.</translation>
+        <source>Automatically open the Fibocoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматически открыть порт для Fibocoin-клиента на роутере. Работает только если Ваш роутер поддерживает UPnP, и данная функция включена.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1161,8 +1161,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the CoinAwesome network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Подключаться к сети CoinAwesome через прокси SOCKS (например, при подключении через Tor).</translation>
+        <source>Connect to the Fibocoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Подключаться к сети Fibocoin через прокси SOCKS (например, при подключении через Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1236,8 +1236,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting CoinAwesome.</source>
-        <translation>Здесь можно выбрать язык интерфейса. Настройки вступят в силу после перезапуска CoinAwesome.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Fibocoin.</source>
+        <translation>Здесь можно выбрать язык интерфейса. Настройки вступят в силу после перезапуска Fibocoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1303,8 +1303,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting CoinAwesome.</source>
-        <translation>Эта настройка вступит в силу после перезапуска CoinAwesome</translation>
+        <source>This setting will take effect after restarting Fibocoin.</source>
+        <translation>Эта настройка вступит в силу после перезапуска Fibocoin</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1322,8 +1322,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the CoinAwesome network after a connection is established, but this process has not completed yet.</source>
-        <translation>Отображаемая информация может быть устаревшей. Ваш бумажник автоматически синхронизируется с сетью CoinAwesome после подключения, но этот процесс пока не завершён.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Fibocoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Отображаемая информация может быть устаревшей. Ваш бумажник автоматически синхронизируется с сетью Fibocoin после подключения, но этот процесс пока не завершён.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1396,7 +1396,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start coinawesome: click-to-pay handler</source>
+        <source>Cannot start fibocoin: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1564,8 +1564,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the CoinAwesome-Qt help message to get a list with possible CoinAwesome command-line options.</source>
-        <translation>Показать помощь по CoinAwesome-Qt, чтобы получить список доступных параметров командной строки.</translation>
+        <source>Show the Fibocoin-Qt help message to get a list with possible Fibocoin command-line options.</source>
+        <translation>Показать помощь по Fibocoin-Qt, чтобы получить список доступных параметров командной строки.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1584,13 +1584,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-104"/>
-        <source>CoinAwesome - Debug window</source>
-        <translation>CoinAwesome - Окно отладки</translation>
+        <source>Fibocoin - Debug window</source>
+        <translation>Fibocoin - Окно отладки</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>CoinAwesome Core</source>
-        <translation>Ядро CoinAwesome</translation>
+        <source>Fibocoin Core</source>
+        <translation>Ядро Fibocoin</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1599,8 +1599,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the CoinAwesome debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Открыть отладочный лог-файл CoinAwesome из текущего каталога данных. Это может занять несколько секунд для больших лог-файлов.</translation>
+        <source>Open the Fibocoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Открыть отладочный лог-файл Fibocoin из текущего каталога данных. Это может занять несколько секунд для больших лог-файлов.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1609,8 +1609,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="+325"/>
-        <source>Welcome to the CoinAwesome RPC console.</source>
-        <translation>Добро пожаловать в RPC-консоль CoinAwesome.</translation>
+        <source>Welcome to the Fibocoin RPC console.</source>
+        <translation>Добро пожаловать в RPC-консоль Fibocoin.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1803,8 +1803,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a CoinAwesome address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Введите CoinAwesome-адрес (например B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a Fibocoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Введите Fibocoin-адрес (например B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1903,7 +1903,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+247"/>
-        <source>WARNING: Invalid CoinAwesome address</source>
+        <source>WARNING: Invalid Fibocoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1977,8 +1977,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a CoinAwesome address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Введите CoinAwesome-адрес (например B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a Fibocoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Введите Fibocoin-адрес (например B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -2038,8 +2038,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this CoinAwesome address</source>
-        <translation>Подписать сообщение, чтобы доказать владение адресом CoinAwesome</translation>
+        <source>Sign the message to prove you own this Fibocoin address</source>
+        <translation>Подписать сообщение, чтобы доказать владение адресом Fibocoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2070,8 +2070,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified CoinAwesome address</source>
-        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом CoinAwesome</translation>
+        <source>Verify the message to ensure it was signed with the specified Fibocoin address</source>
+        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом Fibocoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2081,8 +2081,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a CoinAwesome address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Введите адрес CoinAwesome (напр. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a Fibocoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Введите адрес Fibocoin (напр. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2091,8 +2091,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter CoinAwesome signature</source>
-        <translation>Введите подпись CoinAwesome</translation>
+        <source>Enter Fibocoin signature</source>
+        <translation>Введите подпись Fibocoin</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2670,7 +2670,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+173"/>
-        <source>CoinAwesome version</source>
+        <source>Fibocoin version</source>
         <translation>Версия</translation>
     </message>
     <message>
@@ -2680,8 +2680,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or coinawesomed</source>
-        <translation>Отправить команду на -server или coinawesomed</translation>
+        <source>Send command to -server or fibocoind</source>
+        <translation>Отправить команду на -server или fibocoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2701,13 +2701,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: coinawesome.conf)</source>
-        <translation>Указать конфигурационный файл (по умолчанию: coinawesome.conf)</translation>
+        <source>Specify configuration file (default: fibocoin.conf)</source>
+        <translation>Указать конфигурационный файл (по умолчанию: fibocoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: coinawesomed.pid)</source>
-        <translation>Указать pid-файл (по умолчанию: coinawesomed.pid)</translation>
+        <source>Specify pid file (default: fibocoind.pid)</source>
+        <translation>Указать pid-файл (по умолчанию: fibocoind.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2724,13 +2724,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=coinawesomerpc
+rpcuser=fibocoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;CoinAwesome Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Fibocoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2836,8 +2836,8 @@ for example: alertnotify=echo %%s | mail -s &quot;CoinAwesome Alert&quot; admin@
     </message>
     <message>
         <location line="-103"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong CoinAwesome will not work properly.</source>
-        <translation>Внимание: убедитесь, что дата и время на Вашем компьютере выставлены верно. Если Ваши часы идут неправильно, CoinAwesome будет работать некорректно.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Fibocoin will not work properly.</source>
+        <translation>Внимание: убедитесь, что дата и время на Вашем компьютере выставлены верно. Если Ваши часы идут неправильно, Fibocoin будет работать некорректно.</translation>
     </message>
     <message>
         <location line="+132"/>
@@ -3143,7 +3143,7 @@ for example: alertnotify=echo %%s | mail -s &quot;CoinAwesome Alert&quot; admin@
     </message>
     <message>
         <location line="+10"/>
-        <source>Initialization sanity check failed. CoinAwesome is shutting down.</source>
+        <source>Initialization sanity check failed. Fibocoin is shutting down.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3208,13 +3208,13 @@ for example: alertnotify=echo %%s | mail -s &quot;CoinAwesome Alert&quot; admin@
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of CoinAwesome</source>
-        <translation>Ошибка загрузки wallet.dat: бумажник требует более новую версию CoinAwesome</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Fibocoin</source>
+        <translation>Ошибка загрузки wallet.dat: бумажник требует более новую версию Fibocoin</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart CoinAwesome to complete</source>
-        <translation>Необходимо перезаписать бумажник, перезапустите CoinAwesome для завершения операции</translation>
+        <source>Wallet needed to be rewritten: restart Fibocoin to complete</source>
+        <translation>Необходимо перезаписать бумажник, перезапустите Fibocoin для завершения операции</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3278,8 +3278,8 @@ for example: alertnotify=echo %%s | mail -s &quot;CoinAwesome Alert&quot; admin@
     </message>
     <message>
         <location line="+125"/>
-        <source>Unable to bind to %s on this computer. CoinAwesome is probably already running.</source>
-        <translation>Невозможно привязаться к %s на этом компьютере.  Возможно, CoinAwesome уже работает.</translation>
+        <source>Unable to bind to %s on this computer. Fibocoin is probably already running.</source>
+        <translation>Невозможно привязаться к %s на этом компьютере.  Возможно, Fibocoin уже работает.</translation>
     </message>
     <message>
         <location line="-101"/>
@@ -3318,7 +3318,7 @@ for example: alertnotify=echo %%s | mail -s &quot;CoinAwesome Alert&quot; admin@
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. CoinAwesome is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Fibocoin is probably already running.</source>
         <translation>Невозможно установить блокировку на рабочую директорию %s.  Возможно, бумажник уже запущен.</translation>
     </message>
     <message>

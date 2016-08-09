@@ -3,24 +3,24 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About CoinAwesome</source>
-        <translation>Sobre CoinAwesome</translation>
+        <source>About Fibocoin</source>
+        <translation>Sobre Fibocoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;CoinAwesome&lt;/b&gt; version</source>
-        <translation>versió &lt;b&gt;CoinAwesome&lt;/b&gt;</translation>
+        <source>&lt;b&gt;Fibocoin&lt;/b&gt; version</source>
+        <translation>versió &lt;b&gt;Fibocoin&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
 Copyright © 2014 The Blackcoin developers
-Copyright © 2015 The CoinAwesome developers</source>
+Copyright © 2015 The Fibocoin developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
 Copyright © 2014 The Blackcoin developers
-Copyright © 2015 The CoinAwesome developers</translation>
+Copyright © 2015 The Fibocoin developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -62,8 +62,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your CoinAwesome addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Aquestes són les teves adreces de CoinAwesome per rebre els pagaments. És possible que vulgueu donar una diferent a cada remitent per a poder realitzar un seguiment de qui li está pagant.</translation>
+        <source>These are your Fibocoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Aquestes són les teves adreces de Fibocoin per rebre els pagaments. És possible que vulgueu donar una diferent a cada remitent per a poder realitzar un seguiment de qui li está pagant.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -77,8 +77,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a CoinAwesome address</source>
-        <translation>Signar un missatge per demostrar que és propietari d&apos;una adreça CoinAwesome</translation>
+        <source>Sign a message to prove you own a Fibocoin address</source>
+        <translation>Signar un missatge per demostrar que és propietari d&apos;una adreça Fibocoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -92,8 +92,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified CoinAwesome address</source>
-        <translation>Comproveu el missatge per assegurar-se que es va signar amb una adreça CoinAwesome especificada.</translation>
+        <source>Verify a message to ensure it was signed with a specified Fibocoin address</source>
+        <translation>Comproveu el missatge per assegurar-se que es va signar amb una adreça Fibocoin especificada.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -260,8 +260,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+82"/>
-        <source>CoinAwesome will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>CoinAwesome tancarà ara per acabar el procés de xifrat. Recordeu que l&apos;encriptació del seu moneder no pot protegir completament les seves monedes de ser robades pel malware que pugui infectar al seu equip.</translation>
+        <source>Fibocoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>Fibocoin tancarà ara per acabar el procés de xifrat. Recordeu que l&apos;encriptació del seu moneder no pot protegir completament les seves monedes de ser robades pel malware que pugui infectar al seu equip.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -354,8 +354,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about CoinAwesome</source>
-        <translation>Mostra informació sobre CoinAwesome</translation>
+        <source>Show information about Fibocoin</source>
+        <translation>Mostra informació sobre Fibocoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -394,13 +394,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a CoinAwesome address</source>
-        <translation>Enviar monedes a una adreça CoinAwesome</translation>
+        <source>Send coins to a Fibocoin address</source>
+        <translation>Enviar monedes a una adreça Fibocoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for CoinAwesome</source>
-        <translation>Modificar les opcions de configuració per a CoinAwesome</translation>
+        <source>Modify configuration options for Fibocoin</source>
+        <translation>Modificar les opcions de configuració per a Fibocoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -440,8 +440,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-214"/>
         <location line="+551"/>
-        <source>CoinAwesome</source>
-        <translation>CoinAwesome</translation>
+        <source>Fibocoin</source>
+        <translation>Fibocoin</translation>
     </message>
     <message>
         <location line="-551"/>
@@ -450,8 +450,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About CoinAwesome</source>
-        <translation>&amp;Sobre CoinAwesome</translation>
+        <source>&amp;About Fibocoin</source>
+        <translation>&amp;Sobre Fibocoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -502,13 +502,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>CoinAwesome client</source>
-        <translation>Client CoinAwesome</translation>
+        <source>Fibocoin client</source>
+        <translation>Client Fibocoin</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to CoinAwesome network</source>
-        <translation><numerusform>%n conexió activa a la xarxa CoinAwesome</numerusform><numerusform>%n conexions actives a la xarxa CoinAwesome</numerusform></translation>
+        <source>%n active connection(s) to Fibocoin network</source>
+        <translation><numerusform>%n conexió activa a la xarxa Fibocoin</numerusform><numerusform>%n conexions actives a la xarxa Fibocoin</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -598,8 +598,8 @@ Address: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid CoinAwesome address or malformed URI parameters.</source>
-        <translation>l&apos;URI no es pot analitzar! Això pot ser causat per una adreça CoinAwesome no vàlida o paràmetres URI malformats.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Fibocoin address or malformed URI parameters.</source>
+        <translation>l&apos;URI no es pot analitzar! Això pot ser causat per una adreça Fibocoin no vàlida o paràmetres URI malformats.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -721,8 +721,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. CoinAwesome can no longer continue safely and will quit.</source>
-        <translation>S&apos;ha produït un error fatal. CoinAwesome ja no pot continuar de forma segura i es tancarà.</translation>
+        <source>A fatal error occurred. Fibocoin can no longer continue safely and will quit.</source>
+        <translation>S&apos;ha produït un error fatal. Fibocoin ja no pot continuar de forma segura i es tancarà.</translation>
     </message>
 </context>
 <context>
@@ -1055,8 +1055,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid CoinAwesome address.</source>
-        <translation>La direcció introduïda &quot;%1&quot; no és una adreça CoinAwesome vàlida.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Fibocoin address.</source>
+        <translation>La direcció introduïda &quot;%1&quot; no és una adreça Fibocoin vàlida.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1074,8 +1074,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>CoinAwesome-Qt</source>
-        <translation>CoinAwesome-Qt</translation>
+        <source>Fibocoin-Qt</source>
+        <translation>Fibocoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1147,13 +1147,13 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start CoinAwesome after logging in to the system.</source>
-        <translation>Inicia automàticament CoinAwesome després d&apos;entrar en el sistema.</translation>
+        <source>Automatically start Fibocoin after logging in to the system.</source>
+        <translation>Inicia automàticament Fibocoin després d&apos;entrar en el sistema.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start CoinAwesome on system login</source>
-        <translation>&amp;Iniciar CoinAwesome amb l&apos;inici de sessió</translation>
+        <source>&amp;Start Fibocoin on system login</source>
+        <translation>&amp;Iniciar Fibocoin amb l&apos;inici de sessió</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1162,8 +1162,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the CoinAwesome client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Obrir automàticament el port de client CoinAwesome en el router. Això només funciona quan el router és compatible amb UPnP i està habilitat.</translation>
+        <source>Automatically open the Fibocoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Obrir automàticament el port de client Fibocoin en el router. Això només funciona quan el router és compatible amb UPnP i està habilitat.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1172,8 +1172,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the CoinAwesome network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Connecteu-vos a la xarxa CoinAwesome través d&apos;un proxy SOCKS (per exemple, quan es connecta a través de Tor).</translation>
+        <source>Connect to the Fibocoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Connecteu-vos a la xarxa Fibocoin través d&apos;un proxy SOCKS (per exemple, quan es connecta a través de Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1247,8 +1247,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting CoinAwesome.</source>
-        <translation>L&apos;idioma de la interfície d&apos;usuari es pot configurar aquí. Aquesta configuració s&apos;aplicarà després de reiniciar CoinAwesome.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Fibocoin.</source>
+        <translation>L&apos;idioma de la interfície d&apos;usuari es pot configurar aquí. Aquesta configuració s&apos;aplicarà després de reiniciar Fibocoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1314,8 +1314,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting CoinAwesome.</source>
-        <translation>Aquesta configuració s&apos;aplicarà després de reiniciar CoinAwesome.</translation>
+        <source>This setting will take effect after restarting Fibocoin.</source>
+        <translation>Aquesta configuració s&apos;aplicarà després de reiniciar Fibocoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1333,8 +1333,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the CoinAwesome network after a connection is established, but this process has not completed yet.</source>
-        <translation>La informació mostrada pot estar fora de data. El seu moneder es sincronitza automàticament amb la xarxa CoinAwesome després d&apos;establir una connexió, però aquest procés no s&apos;ha completat encara.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Fibocoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>La informació mostrada pot estar fora de data. El seu moneder es sincronitza automàticament amb la xarxa Fibocoin després d&apos;establir una connexió, però aquest procés no s&apos;ha completat encara.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1407,7 +1407,7 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start coinawesome: click-to-pay handler</source>
+        <source>Cannot start fibocoin: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1575,8 +1575,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the CoinAwesome-Qt help message to get a list with possible CoinAwesome command-line options.</source>
-        <translation>Mostra el missatge d&apos;ajuda de CoinAwesome-Qt per obtenir una llista amb les possibles opcions de línia d&apos;ordres CoinAwesome.</translation>
+        <source>Show the Fibocoin-Qt help message to get a list with possible Fibocoin command-line options.</source>
+        <translation>Mostra el missatge d&apos;ajuda de Fibocoin-Qt per obtenir una llista amb les possibles opcions de línia d&apos;ordres Fibocoin.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1595,13 +1595,13 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>CoinAwesome - Debug window</source>
-        <translation>CoinAwesome - Finestra Depuració</translation>
+        <source>Fibocoin - Debug window</source>
+        <translation>Fibocoin - Finestra Depuració</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>CoinAwesome Core</source>
-        <translation>Nucli CoinAwesome</translation>
+        <source>Fibocoin Core</source>
+        <translation>Nucli Fibocoin</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1610,8 +1610,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the CoinAwesome debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Obriu el fitxer de registre de depuració CoinAwesome des del directori de dades actual. Això pot trigar uns segons en els arxius de registre de grans dimensions.</translation>
+        <source>Open the Fibocoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Obriu el fitxer de registre de depuració Fibocoin des del directori de dades actual. Això pot trigar uns segons en els arxius de registre de grans dimensions.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1620,8 +1620,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="+325"/>
-        <source>Welcome to the CoinAwesome RPC console.</source>
-        <translation>Benvingut a la consola RPC de CoinAwesome.</translation>
+        <source>Welcome to the Fibocoin RPC console.</source>
+        <translation>Benvingut a la consola RPC de Fibocoin.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1814,8 +1814,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a CoinAwesome address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Introdueix una adreça CoinAwesome (p.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a Fibocoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Introdueix una adreça Fibocoin (p.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1914,8 +1914,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+247"/>
-        <source>WARNING: Invalid CoinAwesome address</source>
-        <translation>ADVERTÈNCIA: Direcció CoinAwesome invàlida</translation>
+        <source>WARNING: Invalid Fibocoin address</source>
+        <translation>ADVERTÈNCIA: Direcció Fibocoin invàlida</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1988,8 +1988,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a CoinAwesome address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Introdueix una adreça CoinAwesome (p.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a Fibocoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Introdueix una adreça Fibocoin (p.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -2049,8 +2049,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this CoinAwesome address</source>
-        <translation>Signar un missatge per demostrar que és propietari d&apos;aquesta adreça CoinAwesome</translation>
+        <source>Sign the message to prove you own this Fibocoin address</source>
+        <translation>Signar un missatge per demostrar que és propietari d&apos;aquesta adreça Fibocoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2081,8 +2081,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified CoinAwesome address</source>
-        <translation>Comproveu el missatge per assegurar-se que es va signar amb l&apos;adreça CoinAwesome especificada.</translation>
+        <source>Verify the message to ensure it was signed with the specified Fibocoin address</source>
+        <translation>Comproveu el missatge per assegurar-se que es va signar amb l&apos;adreça Fibocoin especificada.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2092,8 +2092,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a CoinAwesome address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Introdueix una adreça CoinAwesome (p.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a Fibocoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Introdueix una adreça Fibocoin (p.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2102,8 +2102,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter CoinAwesome signature</source>
-        <translation>Introduïu la signatura CoinAwesome</translation>
+        <source>Enter Fibocoin signature</source>
+        <translation>Introduïu la signatura Fibocoin</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2681,8 +2681,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+173"/>
-        <source>CoinAwesome version</source>
-        <translation>versió CoinAwesome</translation>
+        <source>Fibocoin version</source>
+        <translation>versió Fibocoin</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2691,8 +2691,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or coinawesomed</source>
-        <translation>Enviar comandes a -server o coinawesomed</translation>
+        <source>Send command to -server or fibocoind</source>
+        <translation>Enviar comandes a -server o fibocoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2711,13 +2711,13 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: coinawesome.conf)</source>
-        <translation>Especifiqueu el fitxer de configuració (per defecte: coinawesome.conf)</translation>
+        <source>Specify configuration file (default: fibocoin.conf)</source>
+        <translation>Especifiqueu el fitxer de configuració (per defecte: fibocoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: coinawesomed.pid)</source>
-        <translation>Especificar arxiu pid (per defecte: coinawesomed.pid)</translation>
+        <source>Specify pid file (default: fibocoind.pid)</source>
+        <translation>Especificar arxiu pid (per defecte: fibocoind.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2734,13 +2734,13 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=coinawesomerpc
+rpcuser=fibocoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;CoinAwesome Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Fibocoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2846,8 +2846,8 @@ for example: alertnotify=echo %%s | mail -s &quot;CoinAwesome Alert&quot; admin@
     </message>
     <message>
         <location line="-103"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong CoinAwesome will not work properly.</source>
-        <translation>Avís: Comproveu que la data i hora de l&apos;equip siguin correctes! Si el seu rellotge és erroni CoinAwesome no funcionarà correctament.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Fibocoin will not work properly.</source>
+        <translation>Avís: Comproveu que la data i hora de l&apos;equip siguin correctes! Si el seu rellotge és erroni Fibocoin no funcionarà correctament.</translation>
     </message>
     <message>
         <location line="+132"/>
@@ -3154,7 +3154,7 @@ Executar una ordre quan es rep un avís rellevant (%s en cmd es substitueix per 
     </message>
     <message>
         <location line="+10"/>
-        <source>Initialization sanity check failed. CoinAwesome is shutting down.</source>
+        <source>Initialization sanity check failed. Fibocoin is shutting down.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3219,13 +3219,13 @@ Executar una ordre quan es rep un avís rellevant (%s en cmd es substitueix per 
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of CoinAwesome</source>
-        <translation>Error en carregar wallet.dat: El moneder requereix la versió més recent de CoinAwesome</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Fibocoin</source>
+        <translation>Error en carregar wallet.dat: El moneder requereix la versió més recent de Fibocoin</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart CoinAwesome to complete</source>
-        <translation>El moneder necessita ser reescrita: reiniciar CoinAwesome per completar</translation>
+        <source>Wallet needed to be rewritten: restart Fibocoin to complete</source>
+        <translation>El moneder necessita ser reescrita: reiniciar Fibocoin per completar</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3289,8 +3289,8 @@ Executar una ordre quan es rep un avís rellevant (%s en cmd es substitueix per 
     </message>
     <message>
         <location line="+125"/>
-        <source>Unable to bind to %s on this computer. CoinAwesome is probably already running.</source>
-        <translation>No es pot enllaçar a %s en aquest equip. CoinAwesome probablement ja estigui en funcionament.</translation>
+        <source>Unable to bind to %s on this computer. Fibocoin is probably already running.</source>
+        <translation>No es pot enllaçar a %s en aquest equip. Fibocoin probablement ja estigui en funcionament.</translation>
     </message>
     <message>
         <location line="-101"/>
@@ -3329,7 +3329,7 @@ Executar una ordre quan es rep un avís rellevant (%s en cmd es substitueix per 
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. CoinAwesome is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Fibocoin is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>

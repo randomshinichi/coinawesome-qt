@@ -8,7 +8,7 @@ from pprint import pprint
 # parser.add_argument("command")
 # args = parser.parse_args()
 
-rpcUser = 'coinawesomerpc'
+rpcUser = 'fibocoinrpc'
 rpcPassword = 'Ap3HtegJ8SG46MuJoWDgZSMG1kbgnpo6C6sFzZoZWGpR'
 
 

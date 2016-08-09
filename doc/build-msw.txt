@@ -7,7 +7,7 @@ cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP
 software written by Thomas Bernard.
 
 
-See readme-qt.rst for instructions on building CoinAwesome QT, the
+See readme-qt.rst for instructions on building Fibocoin QT, the
 graphical user interface.
 
 WINDOWS BUILD NOTES
@@ -76,9 +76,9 @@ make -f Makefile.mingw
 mkdir miniupnpc
 cp *.h miniupnpc/
 
-CoinAwesome
+Fibocoin
 -------
 DOS prompt:
-cd \coinawesome\src
+cd \fibocoin\src
 mingw32-make -f makefile.mingw
-strip coinawesomed.exe
+strip fibocoind.exe

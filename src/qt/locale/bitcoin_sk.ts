@@ -3,24 +3,24 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About CoinAwesome</source>
-        <translation>O CoinAwesomee</translation>
+        <source>About Fibocoin</source>
+        <translation>O Fibocoine</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;CoinAwesome&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;CoinAwesome&lt;/b&gt; verzia</translation>
+        <source>&lt;b&gt;Fibocoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Fibocoin&lt;/b&gt; verzia</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
 Copyright © 2014 The Blackcoin developers
-Copyright © 2015 The CoinAwesome developers</source>
+Copyright © 2015 The Fibocoin developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
 Copyright © 2014 The Blackcoin developers
-Copyright © 2015 The CoinAwesome developers</translation>
+Copyright © 2015 The Fibocoin developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -67,8 +67,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your CoinAwesome addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Toto sú vaše CoinAwesome adresy pre príjem platieb. Možno budete chcieť dať inú každému odosielateľovi, aby ste mohli sledovať, kto Vám platí.</translation>
+        <source>These are your Fibocoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Toto sú vaše Fibocoin adresy pre príjem platieb. Možno budete chcieť dať inú každému odosielateľovi, aby ste mohli sledovať, kto Vám platí.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -82,8 +82,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a CoinAwesome address</source>
-        <translation>Podpísať správu ako dôkaz, že vlastníte túto CoinAwesome adresu</translation>
+        <source>Sign a message to prove you own a Fibocoin address</source>
+        <translation>Podpísať správu ako dôkaz, že vlastníte túto Fibocoin adresu</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -97,8 +97,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified CoinAwesome address</source>
-        <translation>Overte správu, aby ste zabezpečili, že bola podpísaná s určitou CoinAwesome adresou</translation>
+        <source>Verify a message to ensure it was signed with a specified Fibocoin address</source>
+        <translation>Overte správu, aby ste zabezpečili, že bola podpísaná s určitou Fibocoin adresou</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -265,8 +265,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+82"/>
-        <source>CoinAwesome will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>CoinAwesome sa teraz zavrie aby dokončil proces zašifrovania. Nezabudnite, že zašifrovanie vašej peňaženky nemôže plne chrániť vaše mince pred krádežou malwarom, ktorý napadol váš počítač.</translation>
+        <source>Fibocoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>Fibocoin sa teraz zavrie aby dokončil proces zašifrovania. Nezabudnite, že zašifrovanie vašej peňaženky nemôže plne chrániť vaše mince pred krádežou malwarom, ktorý napadol váš počítač.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -359,8 +359,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about CoinAwesome</source>
-        <translation>Zobraziť informácie o CoinAwesome</translation>
+        <source>Show information about Fibocoin</source>
+        <translation>Zobraziť informácie o Fibocoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -399,13 +399,13 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a CoinAwesome address</source>
-        <translation>Poslať mince na CoinAwesome adresu</translation>
+        <source>Send coins to a Fibocoin address</source>
+        <translation>Poslať mince na Fibocoin adresu</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for CoinAwesome</source>
-        <translation>Upraviť možnosti konfigurácie pre CoinAwesome</translation>
+        <source>Modify configuration options for Fibocoin</source>
+        <translation>Upraviť možnosti konfigurácie pre Fibocoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -445,8 +445,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     <message>
         <location line="-214"/>
         <location line="+551"/>
-        <source>CoinAwesome</source>
-        <translation>CoinAwesome</translation>
+        <source>Fibocoin</source>
+        <translation>Fibocoin</translation>
     </message>
     <message>
         <location line="-551"/>
@@ -455,8 +455,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About CoinAwesome</source>
-        <translation>&amp;O CoinAwesome</translation>
+        <source>&amp;About Fibocoin</source>
+        <translation>&amp;O Fibocoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -507,13 +507,13 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>CoinAwesome client</source>
-        <translation>CoinAwesome klient</translation>
+        <source>Fibocoin client</source>
+        <translation>Fibocoin klient</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to CoinAwesome network</source>
-        <translation><numerusform>%n aktívne spojenie s CoinAwesome sieťov</numerusform><numerusform>%n aktívnych spojení s CoinAwesome sieťov</numerusform><numerusform>%n aktívnych spojení s CoinAwesome sieťou</numerusform></translation>
+        <source>%n active connection(s) to Fibocoin network</source>
+        <translation><numerusform>%n aktívne spojenie s Fibocoin sieťov</numerusform><numerusform>%n aktívnych spojení s Fibocoin sieťov</numerusform><numerusform>%n aktívnych spojení s Fibocoin sieťou</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -606,8 +606,8 @@ Adresa: %4</translation>
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid CoinAwesome address or malformed URI parameters.</source>
-        <translation>URI nemožno analyzovať! Toto môže byť spôsobené neplatnou CoinAwesome adresu alebo chybnými URI parametrami.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Fibocoin address or malformed URI parameters.</source>
+        <translation>URI nemožno analyzovať! Toto môže byť spôsobené neplatnou Fibocoin adresu alebo chybnými URI parametrami.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -729,8 +729,8 @@ Adresa: %4</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. CoinAwesome can no longer continue safely and will quit.</source>
-        <translation>Došlo k závažnej chybe. CoinAwesome už nemôže pokračovať bezpečne a bude ukončený.</translation>
+        <source>A fatal error occurred. Fibocoin can no longer continue safely and will quit.</source>
+        <translation>Došlo k závažnej chybe. Fibocoin už nemôže pokračovať bezpečne a bude ukončený.</translation>
     </message>
 </context>
 <context>
@@ -1063,8 +1063,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid CoinAwesome address.</source>
-        <translation>Zadaná adresa &quot;%1&quot; nie je platnou CoinAwesome adresou.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Fibocoin address.</source>
+        <translation>Zadaná adresa &quot;%1&quot; nie je platnou Fibocoin adresou.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1082,8 +1082,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>CoinAwesome-Qt</source>
-        <translation>CoinAwesome-Qt</translation>
+        <source>Fibocoin-Qt</source>
+        <translation>Fibocoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1155,13 +1155,13 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start CoinAwesome after logging in to the system.</source>
-        <translation>Automaticky spustiť CoinAwesome po prihlásení sa do systému.</translation>
+        <source>Automatically start Fibocoin after logging in to the system.</source>
+        <translation>Automaticky spustiť Fibocoin po prihlásení sa do systému.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start CoinAwesome on system login</source>
-        <translation>&amp;Spustiť CoinAwesome pri prihlásení do systému</translation>
+        <source>&amp;Start Fibocoin on system login</source>
+        <translation>&amp;Spustiť Fibocoin pri prihlásení do systému</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1170,8 +1170,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the CoinAwesome client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automaticky otvoriť port klienta CoinAwesome na routeri. To funguje iba vtedy, ak váš router podporuje UPnP a je povolené.</translation>
+        <source>Automatically open the Fibocoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automaticky otvoriť port klienta Fibocoin na routeri. To funguje iba vtedy, ak váš router podporuje UPnP a je povolené.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1180,8 +1180,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the CoinAwesome network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Pripojenie k sieti CoinAwesome cez SOCKS proxy server (napr. pri pripojení cez Tor).</translation>
+        <source>Connect to the Fibocoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Pripojenie k sieti Fibocoin cez SOCKS proxy server (napr. pri pripojení cez Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1255,8 +1255,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting CoinAwesome.</source>
-        <translation>Tu môžete nastaviť jazyk používateľského rozhrania. Toto nastavenie sa prejaví až po reštartovaní CoinAwesome.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Fibocoin.</source>
+        <translation>Tu môžete nastaviť jazyk používateľského rozhrania. Toto nastavenie sa prejaví až po reštartovaní Fibocoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1322,8 +1322,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting CoinAwesome.</source>
-        <translation>Toto nastavenie sa prejaví až po reštartovaní CoinAwesome.</translation>
+        <source>This setting will take effect after restarting Fibocoin.</source>
+        <translation>Toto nastavenie sa prejaví až po reštartovaní Fibocoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1341,8 +1341,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the CoinAwesome network after a connection is established, but this process has not completed yet.</source>
-        <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky synchronizuje so sieťou CoinAwesome po nadviazaní spojenia, ale tento proces nie je ešte dokončený.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Fibocoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky synchronizuje so sieťou Fibocoin po nadviazaní spojenia, ale tento proces nie je ešte dokončený.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1415,8 +1415,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start coinawesome: click-to-pay handler</source>
-        <translation>CoinAwesome sa nedá spustiť: click-to-pay handler</translation>
+        <source>Cannot start fibocoin: click-to-pay handler</source>
+        <translation>Fibocoin sa nedá spustiť: click-to-pay handler</translation>
     </message>
 </context>
 <context>
@@ -1583,8 +1583,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the CoinAwesome-Qt help message to get a list with possible CoinAwesome command-line options.</source>
-        <translation>Zobraziť CoinAwesome-Qt nápovedu k získaniu zoznamu pre možnosti  príkazového riadku CoinAwesome.</translation>
+        <source>Show the Fibocoin-Qt help message to get a list with possible Fibocoin command-line options.</source>
+        <translation>Zobraziť Fibocoin-Qt nápovedu k získaniu zoznamu pre možnosti  príkazového riadku Fibocoin.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1603,13 +1603,13 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>CoinAwesome - Debug window</source>
-        <translation>CoinAwesome - Ladiace okno</translation>
+        <source>Fibocoin - Debug window</source>
+        <translation>Fibocoin - Ladiace okno</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>CoinAwesome Core</source>
-        <translation>Jadro CoinAwesome</translation>
+        <source>Fibocoin Core</source>
+        <translation>Jadro Fibocoin</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1618,8 +1618,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the CoinAwesome debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Otvorte CoinAwesome súbor denníku ladenia z aktuálneho adresára dát. To môže trvať niekoľko sekúnd pre veľké súbory denníka.</translation>
+        <source>Open the Fibocoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Otvorte Fibocoin súbor denníku ladenia z aktuálneho adresára dát. To môže trvať niekoľko sekúnd pre veľké súbory denníka.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1628,8 +1628,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="+325"/>
-        <source>Welcome to the CoinAwesome RPC console.</source>
-        <translation>Vitajte v konzole CoinAwesome RPC.</translation>
+        <source>Welcome to the Fibocoin RPC console.</source>
+        <translation>Vitajte v konzole Fibocoin RPC.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1822,8 +1822,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a CoinAwesome address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Zadajte CoinAwesome adresu (napr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a Fibocoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Zadajte Fibocoin adresu (napr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1922,8 +1922,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+247"/>
-        <source>WARNING: Invalid CoinAwesome address</source>
-        <translation>UPOZORNENIE: Neplatná CoinAwesome adresa</translation>
+        <source>WARNING: Invalid Fibocoin address</source>
+        <translation>UPOZORNENIE: Neplatná Fibocoin adresa</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1996,8 +1996,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a CoinAwesome address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Zadajte CoinAwesome adresu (napr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a Fibocoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Zadajte Fibocoin adresu (napr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -2057,8 +2057,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this CoinAwesome address</source>
-        <translation>Podpísať správu ako dôkaz, že vlastníte túto CoinAwesome adresu</translation>
+        <source>Sign the message to prove you own this Fibocoin address</source>
+        <translation>Podpísať správu ako dôkaz, že vlastníte túto Fibocoin adresu</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2089,8 +2089,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified CoinAwesome address</source>
-        <translation>Overte správu, aby ste sa ubezpečili, že bola podpísaná s danou CoinAwesome adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified Fibocoin address</source>
+        <translation>Overte správu, aby ste sa ubezpečili, že bola podpísaná s danou Fibocoin adresou</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2100,8 +2100,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a CoinAwesome address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Zadajte CoinAwesome adresu (napr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a Fibocoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Zadajte Fibocoin adresu (napr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2110,8 +2110,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter CoinAwesome signature</source>
-        <translation>Zadajte CoinAwesome podpis</translation>
+        <source>Enter Fibocoin signature</source>
+        <translation>Zadajte Fibocoin podpis</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2689,8 +2689,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+173"/>
-        <source>CoinAwesome version</source>
-        <translation>CoinAwesome verzia</translation>
+        <source>Fibocoin version</source>
+        <translation>Fibocoin verzia</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2699,8 +2699,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or coinawesomed</source>
-        <translation>Pošli príkaz na -server alebo coinawesomed</translation>
+        <source>Send command to -server or fibocoind</source>
+        <translation>Pošli príkaz na -server alebo fibocoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2719,13 +2719,13 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: coinawesome.conf)</source>
-        <translation>Zadajte konfiguračný súbor (predvolené: coinawesome.conf)</translation>
+        <source>Specify configuration file (default: fibocoin.conf)</source>
+        <translation>Zadajte konfiguračný súbor (predvolené: fibocoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: coinawesomed.pid)</source>
-        <translation>Zadajte pid súbor (predvolené: coinawesomed.pid)</translation>
+        <source>Specify pid file (default: fibocoind.pid)</source>
+        <translation>Zadajte pid súbor (predvolené: fibocoind.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2742,24 +2742,24 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=coinawesomerpc
+rpcuser=fibocoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;CoinAwesome Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Fibocoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, musíte nastaviť rpcpassword v konfiguračnom súbore:
 %s
 Doporučuje sa použiť nasledovné náhodne heslo:
-rpcuser=coinawesomerpc
+rpcuser=fibocoinrpc
 rpcpassword=%s
 (toto heslo si nemusíte pamätať)
 Užívateľské meno a heslo NESMIE byť rovnaké.
 Ak súbor neexistuje, vytvorte ho s právami &quot;môže čítať iba vlastník&quot;.
 Odporúča sa tiež nastaviť &quot;alertnotify&quot;, takže budete upozornení na problémy,
-napríklad: alertnotify=echo %%s | mail -s &quot;CoinAwesome upozornenie&quot; admin@foo.com
+napríklad: alertnotify=echo %%s | mail -s &quot;Fibocoin upozornenie&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2864,8 +2864,8 @@ napríklad: alertnotify=echo %%s | mail -s &quot;CoinAwesome upozornenie&quot; a
     </message>
     <message>
         <location line="-103"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong CoinAwesome will not work properly.</source>
-        <translation>Upozornenie: Skontrolujte, že dátum a čas počítača sú správne! Ak je Váš čas nesprávny CoinAwesome nebude pracovať správne.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Fibocoin will not work properly.</source>
+        <translation>Upozornenie: Skontrolujte, že dátum a čas počítača sú správne! Ak je Váš čas nesprávny Fibocoin nebude pracovať správne.</translation>
     </message>
     <message>
         <location line="+132"/>
@@ -3171,8 +3171,8 @@ napríklad: alertnotify=echo %%s | mail -s &quot;CoinAwesome upozornenie&quot; a
     </message>
     <message>
         <location line="+10"/>
-        <source>Initialization sanity check failed. CoinAwesome is shutting down.</source>
-        <translation>Úvodné kontrolné testy zlyhali. CoinAwesome sa teraz zatvori.</translation>
+        <source>Initialization sanity check failed. Fibocoin is shutting down.</source>
+        <translation>Úvodné kontrolné testy zlyhali. Fibocoin sa teraz zatvori.</translation>
     </message>
     <message>
         <location line="+50"/>
@@ -3236,13 +3236,13 @@ napríklad: alertnotify=echo %%s | mail -s &quot;CoinAwesome upozornenie&quot; a
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of CoinAwesome</source>
-        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu CoinAwesome</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Fibocoin</source>
+        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu Fibocoin</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart CoinAwesome to complete</source>
-        <translation>Peňaženka potrebuje byť prepísaná: reštartujte CoinAwesome k dokončeniu</translation>
+        <source>Wallet needed to be rewritten: restart Fibocoin to complete</source>
+        <translation>Peňaženka potrebuje byť prepísaná: reštartujte Fibocoin k dokončeniu</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3306,8 +3306,8 @@ napríklad: alertnotify=echo %%s | mail -s &quot;CoinAwesome upozornenie&quot; a
     </message>
     <message>
         <location line="+125"/>
-        <source>Unable to bind to %s on this computer. CoinAwesome is probably already running.</source>
-        <translation>Nemôžem sa pripojiť na %s na tomto počítači. CoinAwesome je pravdepodobne už beží.</translation>
+        <source>Unable to bind to %s on this computer. Fibocoin is probably already running.</source>
+        <translation>Nemôžem sa pripojiť na %s na tomto počítači. Fibocoin je pravdepodobne už beží.</translation>
     </message>
     <message>
         <location line="-101"/>
@@ -3346,8 +3346,8 @@ napríklad: alertnotify=echo %%s | mail -s &quot;CoinAwesome upozornenie&quot; a
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. CoinAwesome is probably already running.</source>
-        <translation>Nedá sa zamknúť dátová zložka %s. CoinAwesome je pravdepodobne už spustený</translation>
+        <source>Cannot obtain a lock on data directory %s. Fibocoin is probably already running.</source>
+        <translation>Nedá sa zamknúť dátová zložka %s. Fibocoin je pravdepodobne už spustený</translation>
     </message>
     <message>
         <location line="+4"/>

@@ -3,25 +3,25 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About CoinAwesome</source>
-        <translation>Tietoa CoinAwesomeista</translation>
+        <source>About Fibocoin</source>
+        <translation>Tietoa Fibocoinista</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;CoinAwesome&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;CoinAwesome&lt;/b&gt;-asiakasohjelman versio</translation>
+        <source>&lt;b&gt;Fibocoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Fibocoin&lt;/b&gt;-asiakasohjelman versio</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
 Copyright © 2014 The Blackcoin developers
-Copyright © 2015 The CoinAwesome developers</source>
+Copyright © 2015 The Fibocoin developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
 Copyright © 2012-2014 The Blackcoin developers
 Copyright © 2014 The Blackcoin developers
-Copyright © 2015 The CoinAwesome developers</translation>
+Copyright © 2015 The Fibocoin developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -69,8 +69,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your CoinAwesome addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Nämä ovat CoinAwesome-osoitteesi rahansiirtojen vastaanottoa varten. Jos haluat, voit antaa jokaiselle lähettäjälle oman osoitteen jotta voit pitää kirjaa sinulle rahaa siirtäneistä henkilöistä.</translation>
+        <source>These are your Fibocoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Nämä ovat Fibocoin-osoitteesi rahansiirtojen vastaanottoa varten. Jos haluat, voit antaa jokaiselle lähettäjälle oman osoitteen jotta voit pitää kirjaa sinulle rahaa siirtäneistä henkilöistä.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -84,8 +84,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a CoinAwesome address</source>
-        <translation>Allekirjoita viesti osoittaaksesi CoinAwesome-osoitteesi omistajuus</translation>
+        <source>Sign a message to prove you own a Fibocoin address</source>
+        <translation>Allekirjoita viesti osoittaaksesi Fibocoin-osoitteesi omistajuus</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -99,8 +99,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified CoinAwesome address</source>
-        <translation>Vahvista viesti varmistaaksesi että kyseinen CoinAwesome-osoitteesi on allekirjoittanut sen</translation>
+        <source>Verify a message to ensure it was signed with a specified Fibocoin address</source>
+        <translation>Vahvista viesti varmistaaksesi että kyseinen Fibocoin-osoitteesi on allekirjoittanut sen</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -267,8 +267,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="+82"/>
-        <source>CoinAwesome will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>CoinAwesome-ohjelma sulkee itsensä päättääkseen salauksen luonnin. Muista, että lompakon salaaminen ei täysin turvaa kolikoitasi haittaohjelmien aiheuttamien varkauksien uhalta.</translation>
+        <source>Fibocoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>Fibocoin-ohjelma sulkee itsensä päättääkseen salauksen luonnin. Muista, että lompakon salaaminen ei täysin turvaa kolikoitasi haittaohjelmien aiheuttamien varkauksien uhalta.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -361,8 +361,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about CoinAwesome</source>
-        <translation>Näytä tietoja CoinAwesomeista</translation>
+        <source>Show information about Fibocoin</source>
+        <translation>Näytä tietoja Fibocoinista</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -401,12 +401,12 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a CoinAwesome address</source>
-        <translation>Lähetä varoja CoinAwesome-osoitteeseen</translation>
+        <source>Send coins to a Fibocoin address</source>
+        <translation>Lähetä varoja Fibocoin-osoitteeseen</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for CoinAwesome</source>
+        <source>Modify configuration options for Fibocoin</source>
         <translation>Mukauta asiakasohjelman asetuksia</translation>
     </message>
     <message>
@@ -447,8 +447,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     <message>
         <location line="-214"/>
         <location line="+551"/>
-        <source>CoinAwesome</source>
-        <translation>CoinAwesome</translation>
+        <source>Fibocoin</source>
+        <translation>Fibocoin</translation>
     </message>
     <message>
         <location line="-551"/>
@@ -457,8 +457,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About CoinAwesome</source>
-        <translation>&amp;Tietoa CoinAwesomeista</translation>
+        <source>&amp;About Fibocoin</source>
+        <translation>&amp;Tietoa Fibocoinista</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -509,13 +509,13 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>CoinAwesome client</source>
-        <translation>CoinAwesome-asiakasohjelma</translation>
+        <source>Fibocoin client</source>
+        <translation>Fibocoin-asiakasohjelma</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to CoinAwesome network</source>
-        <translation><numerusform>%n aktiivinen yhteys CoinAwesome-verkkoon</numerusform><numerusform>%n aktiivista yhteyttä CoinAwesome-verkkoon</numerusform></translation>
+        <source>%n active connection(s) to Fibocoin network</source>
+        <translation><numerusform>%n aktiivinen yhteys Fibocoin-verkkoon</numerusform><numerusform>%n aktiivista yhteyttä Fibocoin-verkkoon</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -608,8 +608,8 @@ Osoite: %4</translation>
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid CoinAwesome address or malformed URI parameters.</source>
-        <translation>URI-merkkijonoa ei voida jäsentää! Tämä voi johtua väärästä CoinAwesome-osoitteesta tai väärässä muodossa olevista URI-parametreistä.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Fibocoin address or malformed URI parameters.</source>
+        <translation>URI-merkkijonoa ei voida jäsentää! Tämä voi johtua väärästä Fibocoin-osoitteesta tai väärässä muodossa olevista URI-parametreistä.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -731,8 +731,8 @@ Osoite: %4</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. CoinAwesome can no longer continue safely and will quit.</source>
-        <translation>Virhe kohdattu. CoinAwesome-asiakasohjelma ei voi enää jatkaa turvallisesti ja se suljetaan.</translation>
+        <source>A fatal error occurred. Fibocoin can no longer continue safely and will quit.</source>
+        <translation>Virhe kohdattu. Fibocoin-asiakasohjelma ei voi enää jatkaa turvallisesti ja se suljetaan.</translation>
     </message>
 </context>
 <context>
@@ -1065,8 +1065,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid CoinAwesome address.</source>
-        <translation>Syöttämäsi osoite &quot;%1&quot; ei ole hyväksytty CoinAwesome-osoite.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Fibocoin address.</source>
+        <translation>Syöttämäsi osoite &quot;%1&quot; ei ole hyväksytty Fibocoin-osoite.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1084,8 +1084,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>CoinAwesome-Qt</source>
-        <translation>CoinAwesome-Qt</translation>
+        <source>Fibocoin-Qt</source>
+        <translation>Fibocoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1157,13 +1157,13 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start CoinAwesome after logging in to the system.</source>
-        <translation>Käynnistä CoinAwesome-asiakasohjelma automaattisesti kun olet kirjautunut järjestelmään.</translation>
+        <source>Automatically start Fibocoin after logging in to the system.</source>
+        <translation>Käynnistä Fibocoin-asiakasohjelma automaattisesti kun olet kirjautunut järjestelmään.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start CoinAwesome on system login</source>
-        <translation>%Käynnistä CoinAwesome-asiakasohjelma kirjautuessasi</translation>
+        <source>&amp;Start Fibocoin on system login</source>
+        <translation>%Käynnistä Fibocoin-asiakasohjelma kirjautuessasi</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1172,8 +1172,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the CoinAwesome client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Avaa CoinAwesome-asiakkaalle automaattisesti portti reitittimestä. Tämä toimii vain, kun reitittimesi tukee UPnP:tä ja se on aktivoituna.</translation>
+        <source>Automatically open the Fibocoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Avaa Fibocoin-asiakkaalle automaattisesti portti reitittimestä. Tämä toimii vain, kun reitittimesi tukee UPnP:tä ja se on aktivoituna.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1182,8 +1182,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the CoinAwesome network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Yhdistä CoinAwesome-verkkoon SOCKS-välityspalvelimen lävitse. (esim. yhdistettäessä Tor:n kautta).</translation>
+        <source>Connect to the Fibocoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Yhdistä Fibocoin-verkkoon SOCKS-välityspalvelimen lävitse. (esim. yhdistettäessä Tor:n kautta).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1257,8 +1257,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting CoinAwesome.</source>
-        <translation>Käyttöliittymän kieli voidaan valita tästä. Tämä asetus tulee voimaan vasta CoinAwesome-asiakasohjelman uudelleenkäynnistyksen jälkeen.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Fibocoin.</source>
+        <translation>Käyttöliittymän kieli voidaan valita tästä. Tämä asetus tulee voimaan vasta Fibocoin-asiakasohjelman uudelleenkäynnistyksen jälkeen.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1324,8 +1324,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting CoinAwesome.</source>
-        <translation>Tämä asetus tulee voimaan vasta CoinAwesome-asiakasohjelman uudelleenkäynnistyksen jälkeen.</translation>
+        <source>This setting will take effect after restarting Fibocoin.</source>
+        <translation>Tämä asetus tulee voimaan vasta Fibocoin-asiakasohjelman uudelleenkäynnistyksen jälkeen.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1343,8 +1343,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the CoinAwesome network after a connection is established, but this process has not completed yet.</source>
-        <translation>Näytettävät tiedot voivat olla vanhentuneet. Lompakkosi synkronoituu automaattisesti CoinAwesome-verkon kanssa kun yhteys on muodostettu, mutta tätä prosessia ei ole viety vielä päätökseen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Fibocoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Näytettävät tiedot voivat olla vanhentuneet. Lompakkosi synkronoituu automaattisesti Fibocoin-verkon kanssa kun yhteys on muodostettu, mutta tätä prosessia ei ole viety vielä päätökseen.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1417,7 +1417,7 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start coinawesome: click-to-pay handler</source>
+        <source>Cannot start fibocoin: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1585,8 +1585,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the CoinAwesome-Qt help message to get a list with possible CoinAwesome command-line options.</source>
-        <translation>Näytä CoinAwesome-Qt:n avustusohje saadaksesi listan käytettävistä CoinAwesomein komentokehotteen määritteistä.</translation>
+        <source>Show the Fibocoin-Qt help message to get a list with possible Fibocoin command-line options.</source>
+        <translation>Näytä Fibocoin-Qt:n avustusohje saadaksesi listan käytettävistä Fibocoinin komentokehotteen määritteistä.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1605,13 +1605,13 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>CoinAwesome - Debug window</source>
-        <translation>CoinAwesome - Debug-ikkuna</translation>
+        <source>Fibocoin - Debug window</source>
+        <translation>Fibocoin - Debug-ikkuna</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>CoinAwesome Core</source>
-        <translation>CoinAwesomein ydin</translation>
+        <source>Fibocoin Core</source>
+        <translation>Fibocoinin ydin</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1620,8 +1620,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the CoinAwesome debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Avaa CoinAwesome-asiakasohjelman debug-lokitiedosto nykyisestä hakemistostaan. Tämä voi kestää muutaman sekunnin avattaessa suuria lokitiedostoja.</translation>
+        <source>Open the Fibocoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Avaa Fibocoin-asiakasohjelman debug-lokitiedosto nykyisestä hakemistostaan. Tämä voi kestää muutaman sekunnin avattaessa suuria lokitiedostoja.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1630,8 +1630,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="+325"/>
-        <source>Welcome to the CoinAwesome RPC console.</source>
-        <translation>Tervetuloa CoinAwesomein RPC-konsoliin.</translation>
+        <source>Welcome to the Fibocoin RPC console.</source>
+        <translation>Tervetuloa Fibocoinin RPC-konsoliin.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1691,7 +1691,7 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
         <location line="+5"/>
         <location line="+5"/>
         <source>Send Coins</source>
-        <translation>Lähetä CoinAwesomeeja</translation>
+        <translation>Lähetä Fibocoineja</translation>
     </message>
     <message>
         <location line="+76"/>
@@ -1824,8 +1824,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a CoinAwesome address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Syötä CoinAwesome-osoite (esim. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a Fibocoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Syötä Fibocoin-osoite (esim. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1924,8 +1924,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+247"/>
-        <source>WARNING: Invalid CoinAwesome address</source>
-        <translation>VAROITUS: Epäkelpo CoinAwesome-osoite</translation>
+        <source>WARNING: Invalid Fibocoin address</source>
+        <translation>VAROITUS: Epäkelpo Fibocoin-osoite</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1998,8 +1998,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a CoinAwesome address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Syötä CoinAwesome-osoite (esim. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a Fibocoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Syötä Fibocoin-osoite (esim. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -2059,8 +2059,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this CoinAwesome address</source>
-        <translation>Allekirjoita viesti vahvistaaksesi, että omistat tämän CoinAwesome-osoitteen</translation>
+        <source>Sign the message to prove you own this Fibocoin address</source>
+        <translation>Allekirjoita viesti vahvistaaksesi, että omistat tämän Fibocoin-osoitteen</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2091,8 +2091,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified CoinAwesome address</source>
-        <translation>Vahvista viesti varmistaaksesi että se on allekirjoitettu kyseisellä CoinAwesome-osoitteella</translation>
+        <source>Verify the message to ensure it was signed with the specified Fibocoin address</source>
+        <translation>Vahvista viesti varmistaaksesi että se on allekirjoitettu kyseisellä Fibocoin-osoitteella</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2102,8 +2102,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a CoinAwesome address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Syötä CoinAwesome-osoite (esim. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a Fibocoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Syötä Fibocoin-osoite (esim. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2112,8 +2112,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter CoinAwesome signature</source>
-        <translation>Syötä CoinAwesome-allekirjoitus</translation>
+        <source>Enter Fibocoin signature</source>
+        <translation>Syötä Fibocoin-allekirjoitus</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2691,8 +2691,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+173"/>
-        <source>CoinAwesome version</source>
-        <translation>CoinAwesomein versio</translation>
+        <source>Fibocoin version</source>
+        <translation>Fibocoinin versio</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2701,8 +2701,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or coinawesomed</source>
-        <translation>Syötä komento kohteeseen -server tai coinawesomed</translation>
+        <source>Send command to -server or fibocoind</source>
+        <translation>Syötä komento kohteeseen -server tai fibocoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2721,13 +2721,13 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: coinawesome.conf)</source>
-        <translation>Määritä asetustiedosto (oletus: coinawesome.conf)</translation>
+        <source>Specify configuration file (default: fibocoin.conf)</source>
+        <translation>Määritä asetustiedosto (oletus: fibocoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: coinawesomed.pid)</source>
-        <translation>Määritä prosessitiedosto (oletus: coinawesome.pid)</translation>
+        <source>Specify pid file (default: fibocoind.pid)</source>
+        <translation>Määritä prosessitiedosto (oletus: fibocoin.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2744,13 +2744,13 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=coinawesomerpc
+rpcuser=fibocoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;CoinAwesome Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Fibocoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2856,8 +2856,8 @@ for example: alertnotify=echo %%s | mail -s &quot;CoinAwesome Alert&quot; admin@
     </message>
     <message>
         <location line="-103"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong CoinAwesome will not work properly.</source>
-        <translation>Varoitus: Tarkista, että tietokoneesi aika ja päivämäärä ovat oikeassa! Jos kellosi on väärässä, CoinAwesome ei toimi oikein.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Fibocoin will not work properly.</source>
+        <translation>Varoitus: Tarkista, että tietokoneesi aika ja päivämäärä ovat oikeassa! Jos kellosi on väärässä, Fibocoin ei toimi oikein.</translation>
     </message>
     <message>
         <location line="+132"/>
@@ -3163,8 +3163,8 @@ for example: alertnotify=echo %%s | mail -s &quot;CoinAwesome Alert&quot; admin@
     </message>
     <message>
         <location line="+10"/>
-        <source>Initialization sanity check failed. CoinAwesome is shutting down.</source>
-        <translation>Käyttöönottotarkistus epäonnistui. CoinAwesome-asiakasohjelma suljetaan.</translation>
+        <source>Initialization sanity check failed. Fibocoin is shutting down.</source>
+        <translation>Käyttöönottotarkistus epäonnistui. Fibocoin-asiakasohjelma suljetaan.</translation>
     </message>
     <message>
         <location line="+50"/>
@@ -3228,13 +3228,13 @@ for example: alertnotify=echo %%s | mail -s &quot;CoinAwesome Alert&quot; admin@
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of CoinAwesome</source>
-        <translation>Virhe ladattaessa wallet.dat-tiedostoa: Lompakko tarvitsee uudemman version CoinAwesome-asiakasohjelmasta</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Fibocoin</source>
+        <translation>Virhe ladattaessa wallet.dat-tiedostoa: Lompakko tarvitsee uudemman version Fibocoin-asiakasohjelmasta</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart CoinAwesome to complete</source>
-        <translation>Lompakko on kirjoitettava uudelleen: käynnistä CoinAwesome-asiakasohjelma uudelleen päättääksesi toiminnon</translation>
+        <source>Wallet needed to be rewritten: restart Fibocoin to complete</source>
+        <translation>Lompakko on kirjoitettava uudelleen: käynnistä Fibocoin-asiakasohjelma uudelleen päättääksesi toiminnon</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3298,8 +3298,8 @@ for example: alertnotify=echo %%s | mail -s &quot;CoinAwesome Alert&quot; admin@
     </message>
     <message>
         <location line="+125"/>
-        <source>Unable to bind to %s on this computer. CoinAwesome is probably already running.</source>
-        <translation>Ei voitu liittää %s tällä tietokoneella. CoinAwesome-asiakasohjelma on jo ehkä päällä.</translation>
+        <source>Unable to bind to %s on this computer. Fibocoin is probably already running.</source>
+        <translation>Ei voitu liittää %s tällä tietokoneella. Fibocoin-asiakasohjelma on jo ehkä päällä.</translation>
     </message>
     <message>
         <location line="-101"/>
@@ -3338,7 +3338,7 @@ for example: alertnotify=echo %%s | mail -s &quot;CoinAwesome Alert&quot; admin@
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. CoinAwesome is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Fibocoin is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
