@@ -1,0 +1,3 @@
+To create a currency injection, simply create a raw transaction with a previous txid of ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff (64 fs), vout 65535.
+
+They are handled similar to coinbases.
